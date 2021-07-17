@@ -30,7 +30,7 @@ let b = 10;
 console.log('let initial value:', b)
 
 if (b === 10) {
-    // let b = b + 10;   // I will cause a reference error!!! 
+    // let b = b + 10;   // I will cause a reference error 
     // b = b + 10;
     let b = 20;
     // b = 20;
@@ -50,7 +50,9 @@ console.log('const initial value:', c)
 
 
 if (c === 10) {
-    c = c + 10;
+    // c = c + 10;
+    // const c = c + 10;
+    const c = 20;
     console.log('const in an if statement:', c)
 }
 
